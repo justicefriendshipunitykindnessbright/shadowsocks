@@ -5,6 +5,7 @@ from setuptools import setup
 with codecs.open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
+#设置
 setup(
     name="shadowsocks",
     version="3.0.0",

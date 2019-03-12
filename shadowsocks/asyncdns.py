@@ -246,6 +246,7 @@ STATUS_FIRST = 0
 STATUS_SECOND = 1
 
 
+#dns
 class DNSResolver(object):
 
     def __init__(self, server_list=None, prefer_ipv6=False):
@@ -447,6 +448,7 @@ class DNSResolver(object):
             self._sock = None
 
 
+#测试dns
 def test():
     dns_resolver = DNSResolver()
     loop = eventloop.EventLoop()
